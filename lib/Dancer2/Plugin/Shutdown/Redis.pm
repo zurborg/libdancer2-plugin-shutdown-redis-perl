@@ -9,7 +9,6 @@ use Scalar::Util qw(blessed);
 use Redis;
 use Carp qw(croak);
 use Tie::Redis::Candy 1.001 qw(redis_hash);
-use Moo::Role 2;
 with 'Dancer2::Plugin::Role::Shutdown';
 
 # VERSION
